@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/95959b45-48c0-701b-381e-7611b422ed67>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0e51288b-bedb-4709-bcc2-42dce5789b0e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0e51288b-bedb-4709-bcc2-42dce5789b0e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 758490ee-c310-472e-ae28-5cc9f7a93b85
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/758490ee-c310-472e-ae28-5cc9f7a93b85>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: acf976c6-3f39-4c09-9699-65a782d698b7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    selfieLensObjects: false
+    selfieLensOnly: false
+    swapCameraHint: false
+    worldLensObjects: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - selfieLensOnly: false
+      swapCameraHint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      selfieLensObjects: !<reference.SceneObject[]>
+        []
+      worldLensObjects: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}

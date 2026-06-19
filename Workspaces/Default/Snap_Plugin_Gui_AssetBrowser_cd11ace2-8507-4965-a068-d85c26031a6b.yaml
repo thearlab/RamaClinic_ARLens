@@ -1,0 +1,43 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 37
+    values:
+      - ""
+      - Envmaps
+      - Envmaps/Echopark_DEFAULT.hdr
+      - Envmaps/Echopark_DEFAULT.hdr/Diffuse
+      - Envmaps/Echopark_DEFAULT.hdr/Specular
+      - Hints
+      - Hints/Hint_Tap_No_Dot.lensanim
+      - Hints/Hint_Tap_No_Dot.lensanim/Hint_Tap_No_Dot
+      - Hints/Hint_Tap_No_Dot.lensanim/LPD_87_Hint_TAP_out_v01.png
+      - Hints/hint_tap_animation.mat
+      - Materials/3d_hints_render.mat
+      - Materials/logo.mat
+      - Passes
+      - Passes/flat.ss_graph
+      - Render Targets
+      - Render Targets/Device Camera Texture.deviceCameraTexture
+      - Render Targets/Live Only 2D Render Target.renderTarget
+      - Render Targets/Live Only 3D Render Target.renderTarget
+      - Render Targets/Main Render Target.renderTarget
+      - Render Targets/Retouch Render Target.renderTarget
+      - Scene.scene
+      - Scripts
+      - Scripts/Scene Controllers
+      - Scripts/Scene Controllers/RestartController.js
+      - Scripts/Scene Controllers/SelfieWorldController.js
+      - Scripts/TweenManager
+      - Scripts/TweenManager/CustomTweenManager.js
+      - Scripts/TweenManager/Tween.js
+      - Scripts/TweenManager/TweenManager.js
+      - Scripts/Util
+      - Scripts/Util/AudioManager.js
+      - Scripts/Util/HintsManager.js
+      - Scripts/Util/Versioning Manager.js
+      - Textures
+      - Textures/Device Camera Texture.deviceCameraTexture
+      - Textures/UI
+      - Textures/UI/ui-reset-button.png
+  options: 4

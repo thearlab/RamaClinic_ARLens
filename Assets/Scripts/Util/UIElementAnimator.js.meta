@@ -1,0 +1,126 @@
+- !<AssetImportMetadata/6ac44c83-4d97-4eb3-9162-8d2485c72202>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f755d955-de79-4be0-ae73-b4a2b96d7b36
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f755d955-de79-4be0-ae73-b4a2b96d7b36
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 8ee3b66a-8182-4da2-a251-10af79037c3c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/8ee3b66a-8182-4da2-a251-10af79037c3c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 22aa8181-4728-43a1-bcb0-fb5724c17589
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    activeDuration: false
+    activeEasing: false
+    activeFade: false
+    activeFadeEnd: false
+    activeFadeStart: false
+    activeRepeatDelay: false
+    activeReveal: false
+    activeRevealEnd: false
+    activeRevealStart: false
+    activeRotate: false
+    activeRotateEnd: false
+    activeRotateStart: false
+    activeScale: false
+    activeScaleEnd: false
+    activeScaleStart: false
+    activeSlide: false
+    activeSlideDirection: false
+    activeSlideEnd: false
+    activeSlideStart: false
+    autoSpawnOnStart: false
+    enableActiveAnimation: false
+    enableSpawnAnimation: false
+    pingPong: false
+    spawnDelay: false
+    spawnDuration: false
+    spawnEasing: false
+    spawnFade: false
+    spawnFadeEnd: false
+    spawnFadeStart: false
+    spawnReveal: false
+    spawnRevealEnd: false
+    spawnRevealStart: false
+    spawnRotate: false
+    spawnRotateEnd: false
+    spawnRotateStart: false
+    spawnScale: false
+    spawnScaleEnd: false
+    spawnScaleStart: false
+    spawnSlide: false
+    spawnSlideDirection: false
+    spawnSlideEnd: false
+    spawnSlideStart: false
+    startActiveAfterSpawn: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - enableSpawnAnimation: false
+      autoSpawnOnStart: false
+      spawnDuration: 0.500000
+      spawnDelay: !<float> 0.000000
+      spawnEasing: ""
+      spawnFade: false
+      spawnFadeStart: !<float> 0.000000
+      spawnFadeEnd: !<float> 1.000000
+      spawnScale: false
+      spawnScaleStart: !<float> 0.000000
+      spawnScaleEnd: !<float> 1.000000
+      spawnRotate: false
+      spawnRotateStart: !<float> -180.000000
+      spawnRotateEnd: !<float> 0.000000
+      spawnSlide: false
+      spawnSlideStart: !<float> 1.000000
+      spawnSlideEnd: !<float> 0.000000
+      spawnSlideDirection: !<Vec2> {x: 0.000000, y: 1.000000}
+      spawnReveal: false
+      spawnRevealStart: !<float> 0.000000
+      spawnRevealEnd: !<float> 1.000000
+      enableActiveAnimation: false
+      pingPong: false
+      startActiveAfterSpawn: false
+      activeDuration: !<float> 1.000000
+      activeRepeatDelay: !<float> 0.000000
+      activeEasing: ""
+      activeFade: false
+      activeFadeStart: !<float> 1.000000
+      activeFadeEnd: 0.500000
+      activeScale: false
+      activeScaleStart: !<float> 1.000000
+      activeScaleEnd: 1.200000
+      activeRotate: false
+      activeRotateStart: !<float> -5.000000
+      activeRotateEnd: !<float> 5.000000
+      activeSlide: false
+      activeSlideStart: !<float> 0.000000
+      activeSlideEnd: 0.100000
+      activeSlideDirection: !<Vec2> {x: 0.000000, y: 1.000000}
+      activeReveal: false
+      activeRevealStart: !<float> 1.000000
+      activeRevealEnd: 0.500000
+  ScriptTypes:
+    -
+      {}
