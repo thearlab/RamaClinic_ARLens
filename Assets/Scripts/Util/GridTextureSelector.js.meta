@@ -1,0 +1,72 @@
+- !<AssetImportMetadata/026b1311-ad90-4ef5-ad57-066134213627>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 65c85f53-dfa3-4861-a144-eccd5e2b5fd2
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 65c85f53-dfa3-4861-a144-eccd5e2b5fd2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 7e39fd1d-886c-4bd9-8173-c35bef6e11a6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/7e39fd1d-886c-4bd9-8173-c35bef6e11a6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bfd6fc66-2aaf-4d53-bf57-301d01b59bf5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colorDuration: false
+    colorMaterial1: false
+    colorMaterial2: false
+    colorMaterial3: false
+    colorMaterial4: false
+    defaultIndex: false
+    fadeDuration: false
+    fadeMaterial: false
+    fadeTextures: false
+    gridGenerator: false
+    revealController: false
+    slidePanel: false
+    targetMaterial: false
+    targetMaterial2: false
+    textures: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gridGenerator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      textures: !<reference.Texture[]>
+        []
+      targetMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      targetMaterial2: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      fadeMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      fadeTextures: !<reference.Texture[]>
+        []
+      fadeDuration: 0.300000
+      colorDuration: 0.400000
+      colorMaterial1: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      colorMaterial2: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      colorMaterial3: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      colorMaterial4: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      revealController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      slidePanel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      defaultIndex: -1
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,106 @@
+- !<AssetImportMetadata/3f8299b9-2401-dda0-a66f-4dee1ef185fc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d44dc475-7c25-4559-9705-3d1c3900c4e6
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d44dc475-7c25-4559-9705-3d1c3900c4e6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d0e8370d-5b5f-4acf-b77c-2c17bb9190f6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d0e8370d-5b5f-4acf-b77c-2c17bb9190f6>
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="3" width="26" height="26" rx="6" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M25 13V18C25 18.5523 24.5523 19 24 19C23.4477 19 23 18.5523 23 18V13C23 12.4477 23.4477 12 24 12C24.5523 12 25 12.4477 25 13Z" stroke="#D0DAE6" stroke-width="2"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: |
+    UI Scroll View is a custom component that allows one to scroll one screen transform within the bounds of another.  
+    It can be used when content that takes up a lot of space needs to be displayed in a small area - for example a map, a long block of text or a long list of items.
+    
+    content: ScreenTransform - content screen transform;
+    
+    useMask: boolean - use masking component;
+    
+    dragX: boolean  - enable/disable horizontal scroll;
+    
+    dragY: boolean - enable/disable vertical scroll;
+        
+    scrollType : UIScrollView.ScrollType - set the scroll type;
+    
+    elasticity : number - set elasticity value;
+    
+    inertia : number - set inertia value;
+    
+    scrollBarType : UIScrollView.ScrollBarType;
+    
+    scrollBarWidth : number - a width of a scroll bar;
+    
+    enableHorizontalScrollBar : boolean - enable/disable hirizontal scroll bar;
+    
+    enableVerticalScrollBar: boolean - enable/disable vertical scroll bar;
+    
+    positionNormalizedX: number - set normalized position x [-1, 1]
+    
+    positionNormalizedY: number - set normalized position y [-1, 1]
+
+  VersionMajor: 4
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0005fb5c-4411-c551-0000-000000032788
+  ExportUid: ea475799-d273-49f9-ab40-6f7e9c2c6ca0
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    contentScreenTransform: false
+    dampening: false
+    dragX: false
+    dragY: false
+    elasticity: false
+    enableHorizontalScrollBar: false
+    enableVerticalScrollBar: false
+    inertia: false
+    radius: false
+    scrollBarMaterial: true
+    scrollBarOverrideMaterial: false
+    scrollBarType: false
+    scrollBarWidth: false
+    scrollType: false
+    useGlobalTouchEvents: false
+    useMask: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - contentScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      useMask: true
+      radius: 0.250000
+      dragX: true
+      dragY: true
+      scrollType: 0
+      elasticity: 0.500000
+      inertia: false
+      dampening: !<float> 0.000000
+      useGlobalTouchEvents: true
+      enableHorizontalScrollBar: true
+      enableVerticalScrollBar: true
+      scrollBarWidth: 0.500000
+      scrollBarType: 1
+      scrollBarMaterial: !<reference.Material> ae1b5062-32c0-47ac-92b8-8cad57efcddc
+      scrollBarOverrideMaterial: !<reference.Material> 7ed36281-107e-496f-ad49-a85b8baf74c3
+  ScriptTypes:
+    -
+      {}

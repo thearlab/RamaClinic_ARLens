@@ -1,0 +1,88 @@
+- !<Material/d5b6a51d-bc82-41d1-8245-3c3d8c0707a6>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 5ba69ca6-539e-4a33-93f7-2269f0a28ab0
+- !<PassInfo/5ba69ca6-539e-4a33-93f7-2269f0a28ab0>
+  CachedProperties:
+    []
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_Center_N012:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Center_N018:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input0_N003:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N002:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Input1_N003:
+      typeIdx: 1
+      value: 0.000000
+    Port_Scale_N018:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    alpha:
+      typeIdx: 1
+      value: 1.000000
+    badgeTex:
+      typeIdx: 9
+      value:
+        id: fc291c9e-fd42-42f3-84b3-2867c0a96681
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    badgeTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 8d60b21d-0e95-4500-820d-6e7e28edb6be
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    showBadge:
+      typeIdx: 2
+      value: false
+  Pass: !<reference> 2c5aa3f9-ce29-4eb0-8833-7ecd2cac0470

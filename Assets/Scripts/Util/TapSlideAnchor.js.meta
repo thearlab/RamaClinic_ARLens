@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/921f0042-93e6-4cd4-9419-daf34c88db28>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bc43aef9-00c8-4abf-862e-1ebe4ed0eb75
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bc43aef9-00c8-4abf-862e-1ebe4ed0eb75
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 960c8f62-2334-44b1-af31-e7ab8e8a4813
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/960c8f62-2334-44b1-af31-e7ab8e8a4813>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 403447a7-a0e3-4077-9fe8-8248de855f57
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    delay: false
+    duration: false
+    easing: false
+    fromBottom: false
+    interaction: false
+    screenTransform: false
+    screenTransform2: false
+    setStartOnAwake: false
+    toBottom: false
+    triggerOnce: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - interaction: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      screenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenTransform2: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      fromBottom: 0.700000
+      toBottom: -0.300000
+      duration: 0.500000
+      delay: !<float> 0.000000
+      easing: QuadraticInOut
+      setStartOnAwake: true
+      triggerOnce: true
+  ScriptTypes:
+    -
+      {}

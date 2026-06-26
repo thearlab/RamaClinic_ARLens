@@ -1,0 +1,71 @@
+- !<NativePackageDescriptor/ec6301ac-7cda-437e-b117-4e86673ebfd0>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 16
+    patch: 1
+    build: 25112007
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |
+    UI Scroll View is a custom component that allows one to scroll one screen transform within the bounds of another.  
+    It can be used when content that takes up a lot of space needs to be displayed in a small area - for example a map, a long block of text or a long list of items.
+    
+    content: ScreenTransform - content screen transform;
+    
+    useMask: boolean - use masking component;
+    
+    dragX: boolean  - enable/disable horizontal scroll;
+    
+    dragY: boolean - enable/disable vertical scroll;
+        
+    scrollType : UIScrollView.ScrollType - set the scroll type;
+    
+    elasticity : number - set elasticity value;
+    
+    inertia : number - set inertia value;
+    
+    scrollBarType : UIScrollView.ScrollBarType;
+    
+    scrollBarWidth : number - a width of a scroll bar;
+    
+    enableHorizontalScrollBar : boolean - enable/disable hirizontal scroll bar;
+    
+    enableVerticalScrollBar: boolean - enable/disable vertical scroll bar;
+    
+    positionNormalizedX: number - set normalized position x [-1, 1]
+    
+    positionNormalizedY: number - set normalized position y [-1, 1]
+
+  SvgIcon: |
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="3" width="26" height="26" rx="6" stroke="#D0DAE6" stroke-width="2"/>
+    <path d="M25 13V18C25 18.5523 24.5523 19 24 19C23.4477 19 23 18.5523 23 18V13C23 12.4477 23.4477 12 24 12C24.5523 12 25 12.4477 25 13Z" stroke="#D0DAE6" stroke-width="2"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  VersionMajor: 4
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 81
+  ExportUid: ea475799-d273-49f9-ab40-6f7e9c2c6ca0
+  ComponentUid: 0005fb5c-4411-c551-0000-000000032788
+  PackagePolicy: CanBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> d44dc475-7c25-4559-9705-3d1c3900c4e6
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: UI Scroll View
+    AssetId: 1ULhYbyeFgQUTWfKy05Ggd
+    Hash: 4a0cf1014c18254a773d04b7ed8c3bd3
+    Version:
+      major: 4
+      minor: 0
+      patch: 0
+      build: 0

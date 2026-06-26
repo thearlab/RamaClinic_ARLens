@@ -1,18 +1,35 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 37
+    size: 134
     values:
-      - ""
+      - ASSETS/TEAMS
+      - ASSETS/w2560/processed
+      - ASSETS/waves
+      - ASSETS/x2
+      - ASSETS/x2/TEAMS
       - Envmaps
       - Envmaps/Echopark_DEFAULT.hdr
       - Envmaps/Echopark_DEFAULT.hdr/Diffuse
       - Envmaps/Echopark_DEFAULT.hdr/Specular
+      - Face Mask 2.mat
+      - Face Mask.mat
+      - FaceMask.png
+      - FaceMaskOpacity.jpg
       - Hints
       - Hints/Hint_Tap_No_Dot.lensanim
       - Hints/Hint_Tap_No_Dot.lensanim/Hint_Tap_No_Dot
       - Hints/Hint_Tap_No_Dot.lensanim/LPD_87_Hint_TAP_out_v01.png
       - Hints/hint_tap_animation.mat
+      - Image 2.mat
+      - Image 3.mat
+      - Image 4.mat
+      - Image 5.mat
+      - Image Carousel.lsc
+      - Image Carousel.lsc/package.native
+      - Image.mat
+      - Image.png
+      - Materials
       - Materials/3d_hints_render.mat
       - Materials/logo.mat
       - Passes
@@ -32,12 +49,92 @@ CollapsedEntities:
       - Scripts/TweenManager/CustomTweenManager.js
       - Scripts/TweenManager/Tween.js
       - Scripts/TweenManager/TweenManager.js
+      - Scripts/UI Scroll View.lsc
+      - Scripts/UI Scroll View.lsc/.hidden
+      - Scripts/UI Scroll View.lsc/.hidden/Scroll Bar Background.ss_graph
+      - Scripts/UI Scroll View.lsc/.hidden/Scroll View Background.ss_graph
+      - Scripts/UI Scroll View.lsc/Custom Components
+      - Scripts/UI Scroll View.lsc/Custom Components/UI Scroll View
+      - Scripts/UI Scroll View.lsc/Custom Components/UI Scroll View/Modules
+      - Scripts/UI Scroll View.lsc/Custom Components/UI Scroll View/Modules/DestructionHelper.js
+      - Scripts/UI Scroll View.lsc/Custom Components/UI Scroll View/Modules/EventModule.js
+      - Scripts/UI Scroll View.lsc/Custom Components/UI Scroll View/UI Scroll View.js
+      - Scripts/UI Scroll View.lsc/Materials
+      - Scripts/UI Scroll View.lsc/Materials/Scroll Bar Background Override.mat
+      - Scripts/UI Scroll View.lsc/Materials/Scroll View Background.mat
+      - Scripts/UI Scroll View.lsc/Textures
+      - Scripts/UI Scroll View.lsc/Textures/Base Rect Panel.png
+      - Scripts/UI Scroll View.lsc/package.native
       - Scripts/Util
       - Scripts/Util/AudioManager.js
+      - Scripts/Util/GridTextureSelector.js
       - Scripts/Util/HintsManager.js
+      - Scripts/Util/TapRevealAction.js
+      - Scripts/Util/TapSlideAnchor.js
+      - Scripts/Util/TextureGridGenerator.js
       - Scripts/Util/Versioning Manager.js
       - Textures
       - Textures/Device Camera Texture.deviceCameraTexture
-      - Textures/UI
+      - Textures/Page 1/2/Flag-Egypt 1.png
+      - Textures/Page 1/2/Flag-Egypt 1_2.png
+      - Textures/Page 1/2/Flag_of_Algeria.svg 1.png
+      - Textures/Page 1/2/Flag_of_Algeria.svg 1_2.png
+      - Textures/Page 1/2/Flag_of_Bosnia_and_Herzegovina.svg 1.png
+      - Textures/Page 1/2/Flag_of_Iraq.svg 1.png
+      - Textures/Page 1/2/Flag_of_Iraq.svg 1_2.png
+      - Textures/Page 1/2/Flag_of_Iraq.svg 1_3.png
+      - Textures/Page 1/2/Flag_of_Iraq.svg 1_4.png
+      - Textures/Page 1/2/Flag_of_Qatar_(3-2).svg 1.png
+      - Textures/Page 1/2/Flag_of_Qatar_(3-2).svg 1_2.jpg
+      - Textures/Page 1/2/Flag_of_Qatar_(3-2).svg 1_3.png
+      - Textures/Page 1/2/Flag_of_Qatar_(3-2).svg 1_4.png
+      - Textures/Page 1/2/Flag_of_Tunisia.svg 1.png
+      - Textures/Page 1/2/Flag_of_Tunisia.svg 1_2.png
+      - Textures/Page 1/2/Flag_of_Tunisia.svg 1_3.png
+      - Textures/Page 1/2/Flag_of_Tunisia.svg 1_4.png
+      - Textures/Page 1/2/Flag_of_the_United_States_(DDD-F-416E_specifications).svg 1.png
+      - Textures/Page 1/2/download-1 1.png
+      - Textures/Page 1/2/download-1 1_2.jpg
+      - Textures/Page 1/2/download-2 1.png
+      - Textures/Page 1/2/download-2 1_2.png
+      - Textures/Page 1/2/download-2 1_3.png
+      - Textures/Page 1/2/download-2 1_4.png
+      - Textures/Page 1/2/download-2 1_5.png
+      - Textures/Page 1/2/download-2 1_6.png
+      - Textures/Page 1/2/download-2 1_7.png
+      - Textures/Page 1/2/download-2 1_8.png
+      - Textures/Page 1/2/images-1 1.png
+      - Textures/Page 1/2/processed/Flag-Egypt 1.png
+      - Textures/Page 1/2/processed/Flag-Egypt 1_2.png
+      - Textures/Page 1/2/processed/Flag_of_Algeria.svg 1.png
+      - Textures/Page 1/2/processed/Flag_of_Algeria.svg 1_2.png
+      - Textures/Page 1/2/processed/Flag_of_Bosnia_and_Herzegovina.svg 1.png
+      - Textures/Page 1/2/processed/Flag_of_Iraq.svg 1.png
+      - Textures/Page 1/2/processed/Flag_of_Iraq.svg 1_2.png
+      - Textures/Page 1/2/processed/Flag_of_Iraq.svg 1_3.png
+      - Textures/Page 1/2/processed/Flag_of_Iraq.svg 1_4.png
+      - Textures/Page 1/2/processed/Flag_of_Qatar_(3-2).svg 1.png
+      - Textures/Page 1/2/processed/Flag_of_Qatar_(3-2).svg 1_2.png
+      - Textures/Page 1/2/processed/Flag_of_Qatar_(3-2).svg 1_3.png
+      - Textures/Page 1/2/processed/Flag_of_Qatar_(3-2).svg 1_4.png
+      - Textures/Page 1/2/processed/Flag_of_Tunisia.svg 1.png
+      - Textures/Page 1/2/processed/Flag_of_Tunisia.svg 1_2.png
+      - Textures/Page 1/2/processed/Flag_of_Tunisia.svg 1_3.png
+      - Textures/Page 1/2/processed/Flag_of_Tunisia.svg 1_4.png
+      - Textures/Page 1/2/processed/Flag_of_the_United_States_(DDD-F-416E_specifications).svg 1.png
+      - Textures/Page 1/2/processed/download-1 1.png
+      - Textures/Page 1/2/processed/download-1 1_2.png
+      - Textures/Page 1/2/processed/download-2 1.png
+      - Textures/Page 1/2/processed/download-2 1_2.png
+      - Textures/Page 1/2/processed/download-2 1_3.png
+      - Textures/Page 1/2/processed/download-2 1_4.png
+      - Textures/Page 1/2/processed/download-2 1_5.png
+      - Textures/Page 1/2/processed/download-2 1_6.png
+      - Textures/Page 1/2/processed/download-2 1_7.png
+      - Textures/Page 1/2/processed/download-2 1_8.png
+      - Textures/Page 1/2/processed/images-1 1.png
       - Textures/UI/ui-reset-button.png
+      - Textures/container.png
+      - Textures/mt.png
+      - flags.renderTarget
   options: 4

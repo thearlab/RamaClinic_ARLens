@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/82f59bac-6d8f-487e-83ed-281b8282c959>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 8a156618-3b1d-4b59-ac9b-992359573490
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 8a156618-3b1d-4b59-ac9b-992359573490
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b91bc0a4-bd8e-431a-a1a7-9b33fdc76fc9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b91bc0a4-bd8e-431a-a1a7-9b33fdc76fc9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5a9ec6d6-4b85-47d1-af19-132e2b3d9f52
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    addInteraction: false
+    baseMaterial: false
+    blockTouches: false
+    columns: false
+    generateOnStart: false
+    gridContainer: false
+    padding: false
+    rows: false
+    textures: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gridContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textures: !<reference.Texture[]>
+        []
+      baseMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      columns: 5
+      rows: 10
+      padding: 0.100000
+      generateOnStart: true
+      addInteraction: true
+      blockTouches: true
+  ScriptTypes:
+    -
+      {}

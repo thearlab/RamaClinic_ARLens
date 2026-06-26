@@ -1,0 +1,62 @@
+- !<AssetImportMetadata/5559fcdd-c3f1-4ad1-b20e-fcfb1952010b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d50fc5c6-8f90-44af-a69a-9f3737086037
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d50fc5c6-8f90-44af-a69a-9f3737086037
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2bb4d4ff-f637-4022-9ffd-9da67cbdc746
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2bb4d4ff-f637-4022-9ffd-9da67cbdc746>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f5b7968c-5958-4848-86d3-253efcf9bfe8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    delay: false
+    easing: false
+    fadeDuration: false
+    fadeMaterial: false
+    fromLeft: false
+    fromRight: false
+    slideDistance: false
+    slideDuration: false
+    stagger: false
+    triggerOnce: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - delay: !<float> 1.000000
+      fadeMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      fadeDuration: 0.500000
+      fromLeft: !<reference.ScreenTransform[]>
+        []
+      fromRight: !<reference.ScreenTransform[]>
+        []
+      slideDuration: 0.600000
+      stagger: 0.080000
+      slideDistance: !<float> 2.000000
+      easing: QuadraticOut
+      triggerOnce: true
+  ScriptTypes:
+    -
+      {}
