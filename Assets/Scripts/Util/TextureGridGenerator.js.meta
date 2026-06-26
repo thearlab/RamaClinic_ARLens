@@ -32,9 +32,13 @@
     columns: false
     generateOnStart: false
     gridContainer: false
+    keepAspect: false
     padding: false
+    rowSpacing: false
     rows: false
+    squareCells: false
     textures: false
+    topMargin: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -51,6 +55,10 @@
       columns: 5
       rows: 10
       padding: 0.100000
+      rowSpacing: !<float> 0.000000
+      topMargin: !<float> 0.000000
+      squareCells: true
+      keepAspect: true
       generateOnStart: true
       addInteraction: true
       blockTouches: true

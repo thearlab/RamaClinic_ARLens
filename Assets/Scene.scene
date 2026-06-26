@@ -3,6 +3,7 @@
   objects:
     - !<own> 31313486-ab95-4856-8290-92a9fa8cd48b
     - !<own> fd800d97-72db-46c9-86f0-beb31ae47cd8
+    - !<own> 5a2c8c8d-9aed-4706-8c86-0b06fef5b730
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - |
@@ -56,7 +57,7 @@
         - !<reference> 2342b373-048e-45dc-a0ff-30d1b7a19c31
         - !<reference> 02047aba-5e70-4e97-9cc7-7e20947f071f
       slideDuration: 0.600000
-      stagger: 0.150000
+      stagger: 0.250000
       slideDistance: !<float> 2.000000
       easing: QuadraticOut
       triggerOnce: true
@@ -227,6 +228,20 @@
   Components:
     - !<own> 3cfb2b7f-c4b7-49c4-adf2-7e0cf1f5faeb
     - !<own> 09d8fd40-01dc-46ce-9cbf-d43e7be6a40f
+- !<PostEffectVisual/0f66788d-229c-48e4-b257-4f2511b5de49>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 50
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 223651b5-5cdc-434f-a42d-7b2ee9e6f7e7
 - !<SceneObject/13dd7a66-9713-4fa1-9026-2bc452d8086e>
   PrefabRemaps:
     []
@@ -444,6 +459,39 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScreenTransform/1be00314-8a4c-414f-847a-b2f9a46092bb>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
 - !<ScreenTransform/1f1eaf5f-d9f7-463e-aaa8-3fbb07708d8b>
   PrefabRemaps:
     []
@@ -469,9 +517,9 @@
   ForceBasic: true
   Anchor:
     left: -0.800000
-    bottom: 0.700000
+    bottom: 0.650000
     right: 0.800000
-    top: 0.700000
+    top: 0.650000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -1106,7 +1154,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> dd9d0deb-d8a0-4286-9ae3-93a1f248ea6d
   Components:
     - !<own> 74db190e-4a23-4bcf-b937-6368920be4f4
     - !<own> c21520c9-e07d-4da5-84e5-a5c0954a861f
@@ -1498,6 +1546,21 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
+- !<SceneObject/5a2c8c8d-9aed-4706-8c86-0b06fef5b730>
+  PrefabRemaps:
+    []
+  Name: Gaussian Blur
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0f66788d-229c-48e4-b257-4f2511b5de49
 - !<ScreenTransform/5a7beb01-bf4a-47de-be30-963726fd7170>
   PrefabRemaps:
     []
@@ -1901,7 +1964,6 @@
   Enabled: true
   ScriptAsset: !<reference> bc43aef9-00c8-4abf-862e-1ebe4ed0eb75
   ScriptInputsDefault:
-    fromBottom: true
     duration: true
     delay: true
     easing: true
@@ -1914,7 +1976,7 @@
       interaction: !<reference.InteractionComponent> df079c75-4500-4d88-ab7e-860a543cc988
       screenTransform: !<reference.ScreenTransform> 1f1eaf5f-d9f7-463e-aaa8-3fbb07708d8b
       screenTransform2: !<reference.ScreenTransform> 74db190e-4a23-4bcf-b937-6368920be4f4
-      fromBottom: 0.700000
+      fromBottom: 0.650000
       toBottom: -0.450000
       duration: 0.500000
       delay: !<float> 0.000000
@@ -1970,9 +2032,9 @@
   ForceBasic: true
   Anchor:
     left: -0.900000
-    bottom: -0.550000
+    bottom: -0.525000
     right: 0.900000
-    top: 0.750000
+    top: 0.775000
   Offset:
     left: 0.000000
     bottom: 0.000000
@@ -3461,7 +3523,7 @@
   ForceBasic: true
   Anchor:
     left: -1.000000
-    bottom: -2.200000
+    bottom: -1.000000
     right: 1.000000
     top: 1.000000
   Offset:
@@ -3755,6 +3817,22 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+- !<SceneObject/dd9d0deb-d8a0-4286-9ae3-93a1f248ea6d>
+  PrefabRemaps:
+    []
+  Name: Screen Image
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1be00314-8a4c-414f-847a-b2f9a46092bb
+    - !<own> f7c701bf-cb1e-4fbf-9c83-b8e663fac18e
 - !<InteractionComponent/df079c75-4500-4d88-ab7e-860a543cc988>
   PrefabRemaps:
     []
@@ -4195,6 +4273,25 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<Image/f7c701bf-cb1e-4fbf-9c83-b8e663fac18e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 31
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 282b8ec3-c3d5-4b7e-b399-e5e3dac98be3
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/f828ccb5-0bc1-4a5e-96c5-5bcdf332e36e>
   PrefabRemaps:
     []
@@ -4361,6 +4458,10 @@
       columns: 5
       rows: 10
       padding: 0.300000
+      rowSpacing: 0.750000
+      topMargin: 0.500000
+      squareCells: false
+      keepAspect: false
       generateOnStart: true
       addInteraction: true
       blockTouches: false
