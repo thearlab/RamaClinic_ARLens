@@ -2575,8 +2575,10 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 48.000000
   Font: !<reference> 00000000-0000-0000-0000-000000000000
+  FontWeight: 400
+  Italic: false
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -2769,8 +2771,10 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 48.000000
   Font: !<reference> 00000000-0000-0000-0000-000000000000
+  FontWeight: 400
+  Italic: false
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -3601,7 +3605,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 03704878-c853-43ae-a862-bc234530cdeb
+  AudioTrack: !<reference> 6ddddf25-0427-43d0-83a0-b4c8333571ce
   EnableAutoplayLoop: true
   Volume: 0.900000
   EnableMixToSnap: false

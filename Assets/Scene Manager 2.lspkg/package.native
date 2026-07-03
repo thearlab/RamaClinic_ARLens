@@ -9,7 +9,7 @@
     buildFlavor: ""
     timestamp: 0
     commit: ""
-  Description: "The Scene Manager Custom Component is a tool for managing scenes (aka Object Prefabs) in Lens Studio. It allows you to load and unload scenes with minimal or no code. It supports remote scenes (assets), and enables asynchronous loading. With these capabilities, you can effectively organize your projects."
+  Description: The Scene Manager Custom Component is a tool for managing scenes (aka Object Prefabs) in Lens Studio. It allows you to load and unload scenes with minimal or no code. It supports remote scenes (assets), and enables asynchronous loading. With these capabilities, you can effectively organize your projects.
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -21,10 +21,8 @@
   ComponentUid: aa286931-bbcf-49f8-8827-105661f4bc56
   PackagePolicy: CanBeUnpackedTransparent
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
-  Tags:
-    []
-  Attachments:
-    []
+  Tags: []
+  Attachments: []
   Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
   AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
     Name: ""
@@ -35,3 +33,5 @@
       minor: 0
       patch: 0
       build: 0
+  coreVersion: 336
+  clientVersion: 13.6599998
