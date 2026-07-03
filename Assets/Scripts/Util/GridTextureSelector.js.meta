@@ -26,6 +26,7 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    blurController: false
     colorDuration: false
     colorMaterial1: false
     colorMaterial2: false
@@ -38,6 +39,7 @@
     gridGenerator: false
     revealController: false
     slidePanel: false
+    sound3Delay: false
     targetMaterial: false
     targetMaterial2: false
     textures: false
@@ -65,6 +67,8 @@
       colorMaterial3: !<reference.Material> 00000000-0000-0000-0000-000000000000
       colorMaterial4: !<reference.Material> 00000000-0000-0000-0000-000000000000
       revealController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      blurController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sound3Delay: 0.250000
       slidePanel: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       defaultIndex: -1
   ScriptTypes:

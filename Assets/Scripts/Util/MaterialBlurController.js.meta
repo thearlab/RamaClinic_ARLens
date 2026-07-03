@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/99d2bb28-2cc6-4687-bd05-b5c9898732eb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 6c8170da-857b-4182-9e6c-a02346876b9c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 6c8170da-857b-4182-9e6c-a02346876b9c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a314167e-2b24-4315-b01a-ce622f7fa80b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a314167e-2b24-4315-b01a-ce622f7fa80b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 63e32719-db98-485b-9de2-9daffa784be4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    blurAmount: false
+    duration: false
+    easing: false
+    material: false
+    property: false
+    setZeroOnStart: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      property: blurFactor
+      blurAmount: 0.450000
+      duration: 0.150000
+      easing: QuadraticOut
+      setZeroOnStart: true
+  ScriptTypes:
+    -
+      {}

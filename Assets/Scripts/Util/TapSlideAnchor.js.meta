@@ -26,11 +26,16 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    blurController: false
     delay: false
     duration: false
     easing: false
     fromBottom: false
+    gridGenerator: false
     interaction: false
+    popDelay: false
+    popOutDuration: false
+    popStagger: false
     screenTransform: false
     screenTransform2: false
     setStartOnAwake: false
@@ -53,6 +58,11 @@
       duration: 0.500000
       delay: !<float> 0.000000
       easing: QuadraticInOut
+      gridGenerator: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      popDelay: 0.500000
+      popStagger: 0.030000
+      popOutDuration: 0.250000
+      blurController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       setStartOnAwake: true
       triggerOnce: true
   ScriptTypes:

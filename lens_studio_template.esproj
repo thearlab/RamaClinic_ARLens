@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Untitled
+  lensName: Rama Clinics
   lensDescriptors:
     []
   lensApplicability:
@@ -23,7 +23,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: 5f7b84ca84c0f41a46969767e61e750f
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.16.1.25112007

@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/18d75756-329b-44f2-a412-d9ed068a9f7e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> bc61df13-9d72-442f-9696-79736cb7c1b1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> bc61df13-9d72-442f-9696-79736cb7c1b1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c853267a-a0ac-461a-acec-c3645fc52bd6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c853267a-a0ac-461a-acec-c3645fc52bd6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e7348ab8-9d43-4a97-9bd6-3d87536a8322
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    hoverAmount: false
+    phaseOffset: false
+    playOnStart: false
+    screenTransforms: false
+    speed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - screenTransforms: !<reference.ScreenTransform[]>
+        []
+      hoverAmount: 0.040000
+      speed: !<float> 2.000000
+      phaseOffset: 0.600000
+      playOnStart: true
+  ScriptTypes:
+    -
+      {}

@@ -21,6 +21,9 @@
 //@input float slideDuration = 0.6 {"hint":"Slide-in duration (seconds)."}
 //@input float stagger = 0.08 {"hint":"Small delay between each transform starting its slide (seconds)."}
 //@input float slideDistance = 2.0 {"hint":"How far off-screen they start, in anchor units (2 = fully off a centered screen)."}
+
+//@ui {"widget":"separator"}
+//@input Component.ScriptComponent hoverController {"hint":"Optional HoverFloat (same transforms). api.play() fires when all slides finish."}
 //@input string easing = "QuadraticOut" {"widget":"combobox","values":[{"label":"Linear","value":"Linear"},{"label":"Quadratic Out","value":"QuadraticOut"},{"label":"Quadratic InOut","value":"QuadraticInOut"},{"label":"Cubic Out","value":"CubicOut"},{"label":"Cubic InOut","value":"CubicInOut"},{"label":"Sinusoidal InOut","value":"SinusoidalInOut"},{"label":"Exponential Out","value":"ExponentialOut"},{"label":"Back Out","value":"BackOut"}]}
 
 //@ui {"widget":"separator"}
@@ -32,6 +35,7 @@
 var items = [];          // { st, origLeft, origRight, startOffset }
 var fadeFullAlpha = 1;   // fadeMaterial's original alpha
 var slideTweens = [];    // one tween per transform (staggered)
+var slidesPending = 0;   // remaining slide tweens before hover starts
 var fadeTween = null;
 var delayEvent = null;
 var triggered = false;
@@ -101,6 +105,11 @@ function reveal() {
 
 function slideIn() {
     stopSlides();
+    slidesPending = items.length;
+    if (slidesPending === 0) {
+        onAllSlidesComplete();
+        return;
+    }
     // Each transform starts its slide a little after the previous one.
     for (var i = 0; i < items.length; i++) {
         slideOne(items[i], i * script.stagger);
@@ -122,10 +131,19 @@ function slideOne(it, startDelay) {
             // Snap exactly to authored anchors to avoid float drift.
             it.st.anchors.left = it.origLeft;
             it.st.anchors.right = it.origRight;
+            slidesPending--;
+            if (slidesPending <= 0) onAllSlidesComplete();
         }
     });
     slideTweens.push(tw);
     tw.start();
+}
+
+// All slide-ins finished -> start the hover on the same transforms.
+function onAllSlidesComplete() {
+    if (script.hoverController && script.hoverController.api && script.hoverController.api.play) {
+        script.hoverController.api.play();
+    }
 }
 
 function stopSlides() {
@@ -199,6 +217,11 @@ function lerp(a, b, t) {
 // ============================================
 function reset() {
     stopSlides();
+    slidesPending = 0;
+    // Stop the hover so it doesn't keep bobbing the re-hidden transforms.
+    if (script.hoverController && script.hoverController.api && script.hoverController.api.reset) {
+        script.hoverController.api.reset();
+    }
     if (fadeTween) { fadeTween.stop(); fadeTween = null; }
     if (delayEvent) { delayEvent.enabled = false; delayEvent = null; }
     triggered = false;

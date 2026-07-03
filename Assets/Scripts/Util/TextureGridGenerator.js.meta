@@ -29,14 +29,18 @@
     addInteraction: false
     baseMaterial: false
     blockTouches: false
+    bottomMargin: false
+    cellHeightOffset: false
+    cellWidthOffset: false
     columns: false
     generateOnStart: false
     gridContainer: false
     keepAspect: false
     padding: false
+    popDuration: false
+    popStagger: false
     rowSpacing: false
     rows: false
-    squareCells: false
     textures: false
     topMargin: false
   ScriptTypesHidden:
@@ -57,8 +61,12 @@
       padding: 0.100000
       rowSpacing: !<float> 0.000000
       topMargin: !<float> 0.000000
-      squareCells: true
+      bottomMargin: !<float> 0.000000
+      cellWidthOffset: !<float> 0.000000
+      cellHeightOffset: !<float> 0.000000
       keepAspect: true
+      popDuration: 0.250000
+      popStagger: 0.030000
       generateOnStart: true
       addInteraction: true
       blockTouches: true

@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/005f4e1f-cf53-dd24-a784-33df493572c2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 103648e5-b802-4750-beef-c07e14e9522a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 103648e5-b802-4750-beef-c07e14e9522a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 3rRUPQ0SjAJdFlInNkz7s2
+  AssetDataMap:
+    JavaScriptAsset: !<own> d13e74f4-f7b7-47d4-a74b-08f31213b0d6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d13e74f4-f7b7-47d4-a74b-08f31213b0d6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManaerSplashScreenHandler
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 000600b5-400d-6118-0000-000000016068
+  ExportUid: 000600b5-400d-6118-0000-000000016069
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    minimalDuration: false
+    splashScreenSceneName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - splashScreenSceneName: ""
+      minimalDuration: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}

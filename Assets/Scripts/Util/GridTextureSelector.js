@@ -27,6 +27,10 @@
 
 //@ui {"widget":"separator"}
 //@input Component.ScriptComponent revealController {"hint":"Optional PostSelectionReveal. Its api.trigger() fires on the FIRST selection."}
+//@input Component.ScriptComponent blurController {"hint":"Optional MaterialBlurController. Blurs back to 0 on selection."}
+
+//@ui {"widget":"separator"}
+//@input float sound3Delay = 0.25 {"hint":"Delay before the 2nd selection sound (audio index 3) plays after the first (index 2)."}
 
 //@ui {"widget":"separator"}
 //@input Component.ScriptComponent slidePanel {"hint":"Optional TapSlideAnchor. Slides back to its start (0.7) when an option is tapped."}
@@ -39,6 +43,7 @@ var fadeTween = null;
 var fadeFullAlpha = 1;   // fadeMaterial's original alpha, captured at start
 var colorTween = null;   // in-flight flag-color tween
 var firstSelectionDone = false;
+var sound3Event = null;  // delayed play of the 2nd selection sound
 
 // ============================================
 // LIFECYCLE
@@ -64,6 +69,12 @@ function onStart() {
     } else {
         print("WARNING: GridTextureSelector - no gridGenerator assigned; call api.select(index) manually.");
     }
+
+    // Delayed play of the 2nd selection sound (audio index 3).
+    sound3Event = script.createEvent("DelayedCallbackEvent");
+    sound3Event.bind(function () {
+        if (global.PlayAudio) global.PlayAudio(3);
+    });
 
     if (script.defaultIndex >= 0) {
         select(script.defaultIndex, true);   // startup: don't count as the first user selection
@@ -104,10 +115,26 @@ function select(index, isStartup) {
         if (script.revealController && script.revealController.api && script.revealController.api.trigger) {
             script.revealController.api.trigger();
         }
+        // Hide the selection hint, then show the next hint after 1s.
+        if (global.HideHint) {
+            global.HideHint(2, 0);
+        }
+        if (global.ShowHint) {
+            global.ShowHint(3, 2.5);
+        }
+    }
+    // Selection sounds: play index 2 now, then index 3 after a small delay.
+    if (!isStartup) {
+        if (global.PlayAudio) global.PlayAudio(2);
+        if (sound3Event) sound3Event.reset(script.sound3Delay);
     }
     // Close the picker panel (slide its bottom anchor back to 0.7).
     if (script.slidePanel && script.slidePanel.api && script.slidePanel.api.slideBack) {
         script.slidePanel.api.slideBack();
+    }
+    // Blur back to 0 on selection.
+    if (script.blurController && script.blurController.api && script.blurController.api.blurOut) {
+        script.blurController.api.blurOut();
     }
 }
 

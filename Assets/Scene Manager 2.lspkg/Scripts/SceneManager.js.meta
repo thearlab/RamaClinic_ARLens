@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/da00087a-4606-b843-0f7a-b677fa78e85d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b2f56b1e-82b6-4829-92e1-c50f547717d5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b2f56b1e-82b6-4829-92e1-c50f547717d5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 3rRUPQ0SjAJdFlInNkz7s2
+  AssetDataMap:
+    JavaScriptAsset: !<own> e6b3bf63-623b-4c03-a294-4ab477272130
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/e6b3bf63-623b-4c03-a294-4ab477272130>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManager
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00060063-d0ed-cb05-0000-000000002138
+  ExportUid: 00060063-d0ed-cb05-0000-000000002139
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    customizeSceneManagerRoot: false
+    localSceneRegistry: false
+    managerRoot: false
+    remoteSceneRegistry: false
+    verbose: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - localSceneRegistry:
+        []
+      remoteSceneRegistry:
+        []
+      customizeSceneManagerRoot: false
+      managerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      verbose: false
+  ScriptTypes:
+    -
+      {}

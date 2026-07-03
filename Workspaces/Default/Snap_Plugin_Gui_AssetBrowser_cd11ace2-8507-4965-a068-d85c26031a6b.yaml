@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 400
+    size: 503
     values:
       - ""
       - ASSETS
@@ -17,17 +17,21 @@ CollapsedEntities:
       - ASSETS/TEAMS/البرازيل.png
       - ASSETS/TEAMS/البرتغال.png
       - ASSETS/TEAMS/البوسنة والهرسك.png
+      - ASSETS/TEAMS/البوسنة والهرسك.png~
       - ASSETS/TEAMS/الجزائر.png
       - ASSETS/TEAMS/الرأس الأخضر (كاب فيردي).png
+      - ASSETS/TEAMS/الرأس الأخضر (كاب فيردي).png~
       - ASSETS/TEAMS/السنغال.png
       - ASSETS/TEAMS/السويد.png
       - ASSETS/TEAMS/العراق.png
       - ASSETS/TEAMS/المغرب.png
       - ASSETS/TEAMS/المكسيك.png
       - ASSETS/TEAMS/المملكة العربية السعودية.png
+      - ASSETS/TEAMS/المملكة العربية السعودية.png~
       - ASSETS/TEAMS/النرويج.png
       - ASSETS/TEAMS/النمسا.png
       - ASSETS/TEAMS/الولايات المتحدة الأمريكية.png
+      - ASSETS/TEAMS/الولايات المتحدة الأمريكية.png~
       - ASSETS/TEAMS/اليابان.png
       - ASSETS/TEAMS/ألمانيا.png
       - ASSETS/TEAMS/أوزبكستان.png
@@ -61,11 +65,10 @@ CollapsedEntities:
       - ASSETS/TEAMS/هايتي.png
       - ASSETS/TEAMS/هولندا.png
       - ASSETS/w2560
-      - ASSETS/w2560/.qatar.png-autosave.kra
-      - ASSETS/w2560/.uzbekistan.png-autosave.kra
       - ASSETS/w2560/Bosnia and Herzegovina.png
       - ASSETS/w2560/USA.png
       - ASSETS/w2560/algeria.png
+      - ASSETS/w2560/argentina 2.png
       - ASSETS/w2560/argentina.png
       - ASSETS/w2560/australia.png
       - ASSETS/w2560/australia.png~
@@ -92,6 +95,7 @@ CollapsedEntities:
       - ASSETS/w2560/ivory coast.png
       - ASSETS/w2560/japan.png
       - ASSETS/w2560/jordan.png
+      - ASSETS/w2560/jordan.png~
       - ASSETS/w2560/mexico.png
       - ASSETS/w2560/morocco.png
       - ASSETS/w2560/netherlands.png
@@ -99,6 +103,7 @@ CollapsedEntities:
       - ASSETS/w2560/new zealand.png~
       - ASSETS/w2560/norway.png
       - ASSETS/w2560/panama.png
+      - ASSETS/w2560/panama.png~
       - ASSETS/w2560/paraguay.png
       - ASSETS/w2560/portugal.png
       - ASSETS/w2560/processed
@@ -240,8 +245,66 @@ CollapsedEntities:
       - Face Mask.mat
       - FaceMask.png
       - FaceMaskOpacity.jpg
+      - Flags Fixed Sizes
+      - Flags Fixed Sizes/Bosnia and Herzegovina.png
+      - Flags Fixed Sizes/USA.png
+      - Flags Fixed Sizes/USA.png~
+      - Flags Fixed Sizes/algeria.png
+      - Flags Fixed Sizes/argentina.png
+      - Flags Fixed Sizes/australia.png
+      - Flags Fixed Sizes/australia.png~
+      - Flags Fixed Sizes/austria.png
+      - Flags Fixed Sizes/belgium.png
+      - Flags Fixed Sizes/brazil.png
+      - Flags Fixed Sizes/cabo verde.png
+      - Flags Fixed Sizes/canada.png
+      - Flags Fixed Sizes/colombia.png
+      - Flags Fixed Sizes/croatia.png
+      - Flags Fixed Sizes/curacao.png
+      - Flags Fixed Sizes/czechia.png
+      - Flags Fixed Sizes/dr congo.png
+      - Flags Fixed Sizes/dr congo.png~
+      - Flags Fixed Sizes/ecuador.png
+      - Flags Fixed Sizes/egypt.png
+      - Flags Fixed Sizes/england.png
+      - Flags Fixed Sizes/france.png
+      - Flags Fixed Sizes/germany.png
+      - Flags Fixed Sizes/ghana.png
+      - Flags Fixed Sizes/iran.png
+      - Flags Fixed Sizes/iraq.png
+      - Flags Fixed Sizes/ivory coast.png
+      - Flags Fixed Sizes/japan.png
+      - Flags Fixed Sizes/mexico.png
+      - Flags Fixed Sizes/mexico.png~
+      - Flags Fixed Sizes/morocco.png
+      - Flags Fixed Sizes/netherlands.png
+      - Flags Fixed Sizes/new zealand.png
+      - Flags Fixed Sizes/norway.png
+      - Flags Fixed Sizes/paraguay.png
+      - Flags Fixed Sizes/portugal.png
+      - Flags Fixed Sizes/portugal.png~
+      - Flags Fixed Sizes/qatar.png
+      - Flags Fixed Sizes/qatar.png~
+      - Flags Fixed Sizes/saudi arabia.png
+      - Flags Fixed Sizes/scotland.png
+      - Flags Fixed Sizes/senegal.png
+      - Flags Fixed Sizes/senegal.png~
+      - Flags Fixed Sizes/south africa.png
+      - Flags Fixed Sizes/south africa.png~
+      - Flags Fixed Sizes/south korea.png
+      - Flags Fixed Sizes/spain.png
+      - Flags Fixed Sizes/spain.png~
+      - Flags Fixed Sizes/sweden.png
+      - Flags Fixed Sizes/switzerland.png
+      - Flags Fixed Sizes/uruguay.png
+      - Flags Fixed Sizes/uruguay.png~
+      - Flags Fixed Sizes/uzbekistan.png
+      - Flags Fixed Sizes/uzbekistan.png~
       - Gaussian Blur 2.mat
       - Gaussian Blur.mat
+      - HINT 1.png
+      - HINT 2.png
+      - HINT 2.png~
       - Hints
       - Hints/Hint_Tap_No_Dot.lensanim
       - Hints/Hint_Tap_No_Dot.lensanim/Hint_Tap_No_Dot
@@ -252,6 +315,10 @@ CollapsedEntities:
       - Image 12.mat
       - Image 13.mat
       - Image 14.mat
+      - Image 15.mat
+      - Image 16.mat
+      - Image 17.mat
+      - Image 18.mat
       - Image 2.mat
       - Image 3.mat
       - Image 4.mat
@@ -285,6 +352,8 @@ CollapsedEntities:
       - Materials/3d_hints_render.mat
       - Materials/logo.mat
       - Materials/restart_button.mat
+      - New Folder
+      - PROJECT.prefab
       - Passes
       - Passes/flat.ss_graph
       - Render Targets
@@ -293,8 +362,32 @@ CollapsedEntities:
       - Render Targets/Live Only 3D Render Target.renderTarget
       - Render Targets/Main Render Target.renderTarget
       - Render Targets/Retouch Render Target.renderTarget
+      - Scene Manager 2.lspkg
+      - Scene Manager 2.lspkg/SceneManager__PLACE_IN_SCENE.prefab
+      - Scene Manager 2.lspkg/Scripts
+      - Scene Manager 2.lspkg/Scripts/Coroutine.js
+      - Scene Manager 2.lspkg/Scripts/Event Module.js
+      - Scene Manager 2.lspkg/Scripts/SceneManaerSplashScreenHandler.js
+      - Scene Manager 2.lspkg/Scripts/SceneManaerStartSceneLoader.js
+      - Scene Manager 2.lspkg/Scripts/SceneManager.js
+      - Scene Manager 2.lspkg/Scripts/SceneManagerModule.js
+      - Scene Manager 2.lspkg/package.native
+      - Scene Manager.lspkg
+      - Scene Manager.lspkg/SceneManager__PLACE_IN_SCENE.prefab
+      - Scene Manager.lspkg/Scripts
+      - Scene Manager.lspkg/Scripts/Coroutine.js
+      - Scene Manager.lspkg/Scripts/Event Module.js
+      - Scene Manager.lspkg/Scripts/SceneManaerSplashScreenHandler.js
+      - Scene Manager.lspkg/Scripts/SceneManaerStartSceneLoader.js
+      - Scene Manager.lspkg/Scripts/SceneManager.js
+      - Scene Manager.lspkg/Scripts/SceneManagerModule.js
+      - Scene Manager.lspkg/package.native
       - Scene.scene
       - ScreenTexture.screenTexture
+      - Scripts
+      - Scripts/Scene Controllers
+      - Scripts/Scene Controllers/RestartController.js
+      - Scripts/Scene Controllers/SelfieWorldController.js
       - Scripts/TweenManager
       - Scripts/TweenManager/CustomTweenManager.js
       - Scripts/TweenManager/Tween.js
@@ -319,12 +412,15 @@ CollapsedEntities:
       - Scripts/Util/AudioManager.js
       - Scripts/Util/GridTextureSelector.js
       - Scripts/Util/HintsManager.js
+      - Scripts/Util/HoverFloat.js
+      - Scripts/Util/MaterialBlurController.js
       - Scripts/Util/PostSelectionReveal.js
       - Scripts/Util/TapRevealAction.js
       - Scripts/Util/TapSlideAnchor.js
       - Scripts/Util/TextureGridGenerator.js
       - Scripts/Util/UIElementAnimator.js
       - Scripts/Util/Versioning Manager.js
+      - Textures
       - Textures/Device Camera Texture.deviceCameraTexture
       - Textures/Page 1
       - Textures/Page 1/2
@@ -391,14 +487,21 @@ CollapsedEntities:
       - Textures/Page 1/2/processed/images-1 1.png
       - Textures/UI
       - Textures/UI/ui-reset-button.png
+      - Textures/blurop.kra
+      - Textures/blurop.png
+      - Textures/blurop.png~
+      - Textures/container.png
       - Textures/containeroverlay.png
       - Textures/containeroverlay.png~
       - Textures/fariq.png
       - Textures/fariq.png~
       - Textures/icon.png
+      - Textures/icon.png~
       - Textures/mt.png
+      - Top Gradient (throughout the lens).png
       - flags.renderTarget
       - gauss_blur.ss_graph
+      - images (1).png
       - اسكتلندا.png
       - اسكتلندا.png~
       - أستراليا.png

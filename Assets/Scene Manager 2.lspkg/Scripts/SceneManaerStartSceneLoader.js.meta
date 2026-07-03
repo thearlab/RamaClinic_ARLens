@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/1b36cdb4-0b5b-2a1e-ab77-269c78bdb6c5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> adf24d18-40a0-4d8d-8e28-7404211041f1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> adf24d18-40a0-4d8d-8e28-7404211041f1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 3rRUPQ0SjAJdFlInNkz7s2
+  AssetDataMap:
+    JavaScriptAsset: !<own> cf2aa15e-7cd4-418c-96f9-063336f3088e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/cf2aa15e-7cd4-418c-96f9-063336f3088e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: SceneManaerStartSceneLoader
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 000600b5-3fe7-7a46-0000-000000015cd9
+  ExportUid: 000600b5-3fe7-7a46-0000-000000015cda
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    defaultStartSceneName: false
+    platformSceneInitConfigs: false
+    usePlatformSpecificStartScene: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - defaultStartSceneName: ""
+      usePlatformSpecificStartScene: false
+      platformSceneInitConfigs:
+        []
+  ScriptTypes:
+    -
+      {}

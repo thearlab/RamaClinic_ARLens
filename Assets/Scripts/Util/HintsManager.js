@@ -23,6 +23,7 @@ global.HideHint = (id, delay, callback) => {
 
     let fadeOutHint = new CustomTween({
         delay: delay,
+        duration: 0.3,
         onStart: () => {startAlpha = script.hints[id].mainPass.baseColor.a},
         onUpdate: (progress) => { script.hints[id].mainPass.baseColor = new vec4(1, 1, 1, startAlpha * (1 - progress)) },
         onComplete: callback

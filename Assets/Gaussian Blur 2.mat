@@ -4,7 +4,30 @@
     - !<own> fdea1e82-a1da-4db2-a056-9ac81b133f62
 - !<PassInfo/fdea1e82-a1da-4db2-a056-9ac81b133f62>
   CachedProperties:
-    []
+    - opacityTex:
+        typeIdx: 9
+        value:
+          id: 46a2c7cc-e1f8-43d7-a5f0-e4bc9ff9d55c
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - opacityTexSize:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - opacityTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - opacityblurFactor:
+        typeIdx: 1
+        value: 1.000000
   DepthWrite: false
   DepthTest: false
   DepthFunction: LessEqual
@@ -24,7 +47,7 @@
       value: 0
     blurFactor:
       typeIdx: 1
-      value: 0.410000
+      value: 0.000000
     screenTexture:
       typeIdx: 9
       value:

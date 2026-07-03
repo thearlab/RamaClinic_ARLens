@@ -32,6 +32,7 @@
     fadeMaterial: false
     fromLeft: false
     fromRight: false
+    hoverController: false
     slideDistance: false
     slideDuration: false
     stagger: false
@@ -55,6 +56,7 @@
       slideDuration: 0.600000
       stagger: 0.080000
       slideDistance: !<float> 2.000000
+      hoverController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       easing: QuadraticOut
       triggerOnce: true
   ScriptTypes:
