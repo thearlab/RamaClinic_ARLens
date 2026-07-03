@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 519
+    size: 520
     values:
       - ""
       - ASSETS
@@ -501,6 +501,7 @@ CollapsedEntities:
       - after selection
       - after selection/correct .mp3
       - assets production
+      - assets production/.WORLD BUTTON.png-autosave.kra
       - assets production/HINT 11.png
       - assets production/HINT 12.png
       - assets production/LOGO.png
