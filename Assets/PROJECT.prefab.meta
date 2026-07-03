@@ -2575,10 +2575,8 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 32.000000
+  FontSize: 48
   Font: !<reference> 00000000-0000-0000-0000-000000000000
-  FontWeight: 400
-  Italic: false
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -2771,10 +2769,8 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 20.000000
+  FontSize: 48
   Font: !<reference> 00000000-0000-0000-0000-000000000000
-  FontWeight: 400
-  Italic: false
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -3605,7 +3601,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 6ddddf25-0427-43d0-83a0-b4c8333571ce
+  AudioTrack: !<reference> 03704878-c853-43ae-a862-bc234530cdeb
   EnableAutoplayLoop: true
   Volume: 0.900000
   EnableMixToSnap: false
@@ -4538,13 +4534,13 @@
   ForceBasic: true
   Anchor:
     left: 0.006020
-    bottom: 0.820000
+    bottom: 0.800000
     right: 0.006020
-    top: 0.820000
+    top: 0.800000
   Offset:
-    left: -4.500000
+    left: -3.000000
     bottom: -1.824107
-    right: 4.500000
+    right: 3.000000
     top: 1.824107
 - !<ScreenTransform/ec3a34c3-3a3d-472e-7b06-53c1883c1f7b>
   PrefabRemaps:
