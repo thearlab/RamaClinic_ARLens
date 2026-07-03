@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 503
+    size: 519
     values:
       - ""
       - ASSETS
@@ -353,7 +353,6 @@ CollapsedEntities:
       - Materials/logo.mat
       - Materials/restart_button.mat
       - New Folder
-      - PROJECT.prefab
       - Passes
       - Passes/flat.ss_graph
       - Render Targets
@@ -499,9 +498,26 @@ CollapsedEntities:
       - Textures/icon.png~
       - Textures/mt.png
       - Top Gradient (throughout the lens).png
+      - after selection
+      - after selection/correct .mp3
+      - assets production
+      - assets production/HINT 11.png
+      - assets production/HINT 12.png
+      - assets production/LOGO.png
+      - assets production/LOW GRADIENT.png
+      - assets production/LOW GRADIENT.png~
+      - assets production/Lens Icon.png
+      - assets production/WORLD BUTTON.png
+      - assets production/WORLD BUTTON.png~
+      - flags ui opens
+      - flags ui opens/flags ui opens.MP3
       - flags.renderTarget
       - gauss_blur.ss_graph
       - images (1).png
+      - option 1-loop (1).mp3
+      - option 5-loop.mp3
+      - selection
+      - selection/selection.MP3
       - اسكتلندا.png
       - اسكتلندا.png~
       - أستراليا.png

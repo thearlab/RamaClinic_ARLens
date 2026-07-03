@@ -1,4 +1,4 @@
-- !<ObjectPrefab/205f8775-3215-424d-8f36-fdda7fffb7df>
+- !<ObjectPrefab/435d66dd-2820-4f95-87ea-98bd93c353a5>
   PackagePath: ""
   objects:
     - !<own> 9b644b4e-77f3-48c7-89c4-68e2f973d3cc
@@ -725,7 +725,7 @@
   Name: Image
   Enabled: true
   RenderOrder: 0
-  StretchMode: Fit
+  StretchMode: Stretch
   VerticalAlignment: Center
   HorizontalAlignment: Center
   MeshShadowMode: None
@@ -2371,9 +2371,9 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -1.000000
+    left: -1.100000
     bottom: -1.100000
-    right: 1.000000
+    right: 1.100000
     top: -0.200000
   Offset:
     left: 0.000000
@@ -3741,7 +3741,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 6ddddf25-0427-43d0-83a0-b4c8333571ce
+  AudioTrack: !<reference> 8f9b01c5-69f9-4696-ba3f-4c2bdbaa35cc
   EnableAutoplayLoop: true
   Volume: 0.900000
   EnableMixToSnap: false
@@ -4693,13 +4693,13 @@
   ForceBasic: true
   Anchor:
     left: 0.006020
-    bottom: 0.820000
+    bottom: 0.800000
     right: 0.006020
-    top: 0.820000
+    top: 0.800000
   Offset:
-    left: -4.500000
+    left: -3.500000
     bottom: -1.824107
-    right: 4.500000
+    right: 3.500000
     top: 1.824107
 - !<ScreenTransform/ec3a34c3-3a3d-472e-84f9-ac3e77c3e084>
   PrefabRemaps:

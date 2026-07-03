@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Rama Clinics
+  lensName: Oriel Clinic
   lensDescriptors:
     []
   lensApplicability:
@@ -23,7 +23,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 5f7b84ca84c0f41a46969767e61e750f
+  iconHash: 0409eedd6a6a9fb5f820fd6470e1b3fe
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.16.1.25112007

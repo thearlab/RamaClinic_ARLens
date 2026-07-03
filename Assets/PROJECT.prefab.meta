@@ -1,14 +1,14 @@
-- !<AssetImportMetadata/c7c7254d-df8b-481f-a008-ecd89cd9b36e>
+- !<AssetImportMetadata/c3ff6383-344c-456b-aa8f-96785c5e239e>
   ImportedAssetIds:
-    ObjectPrefab: !<reference> 205f8775-3215-424d-8f36-fdda7fffb7df
+    ObjectPrefab: !<reference> 435d66dd-2820-4f95-87ea-98bd93c353a5
   ImporterName: ObjectPrefabImporter
-  PrimaryAsset: !<reference> 205f8775-3215-424d-8f36-fdda7fffb7df
+  PrimaryAsset: !<reference> 435d66dd-2820-4f95-87ea-98bd93c353a5
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     {}
   AssetDataMap:
-    ObjectPrefab: !<own> 45519bce-0383-463c-ba81-3362bdb49a26
+    ObjectPrefab: !<own> ce212f39-9cc9-4b85-b0b0-46acc9fe33d0
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
@@ -735,7 +735,7 @@
   Name: Image
   Enabled: true
   RenderOrder: 0
-  StretchMode: Fit
+  StretchMode: Stretch
   VerticalAlignment: Center
   HorizontalAlignment: Center
   MeshShadowMode: None
@@ -1314,11 +1314,6 @@
     []
   Components:
     - !<own> f2c6e9fe-2a5a-4ec8-72dd-ef24315313b8
-- !<ObjectPrefabAssetData/45519bce-0383-463c-ba81-3362bdb49a26>
-  Prototype: !<ObjectOwner/b7fcd2f1-a039-482e-9db6-50ff7119bf6c>
-    PackagePath: ""
-    objects:
-      - !<own> 9b644b4e-77f3-48c7-763b-971d068c2c33
 - !<ScreenTransform/4693d124-384e-42e2-7af7-0860e722c82a>
   PrefabRemaps:
     []
@@ -2372,9 +2367,9 @@
   RawMode: true
   ForceBasic: true
   Anchor:
-    left: -1.000000
+    left: -1.100000
     bottom: -1.100000
-    right: 1.000000
+    right: 1.100000
     top: -0.200000
   Offset:
     left: 0.000000
@@ -3605,7 +3600,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 6ddddf25-0427-43d0-83a0-b4c8333571ce
+  AudioTrack: !<reference> 8f9b01c5-69f9-4696-ba3f-4c2bdbaa35cc
   EnableAutoplayLoop: true
   Volume: 0.900000
   EnableMixToSnap: false
@@ -3870,6 +3865,11 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/ce212f39-9cc9-4b85-b0b0-46acc9fe33d0>
+  Prototype: !<ObjectOwner/4e3bf0dc-e673-4aff-8a9a-b431d3ab40ff>
+    PackagePath: ""
+    objects:
+      - !<own> 9b644b4e-77f3-48c7-763b-971d068c2c33
 - !<ScreenTransform/cee44691-63d2-459c-58a0-0286b2fea284>
   PrefabRemaps:
     []
@@ -4538,13 +4538,13 @@
   ForceBasic: true
   Anchor:
     left: 0.006020
-    bottom: 0.820000
+    bottom: 0.800000
     right: 0.006020
-    top: 0.820000
+    top: 0.800000
   Offset:
-    left: -4.500000
+    left: -3.500000
     bottom: -1.824107
-    right: 4.500000
+    right: 3.500000
     top: 1.824107
 - !<ScreenTransform/ec3a34c3-3a3d-472e-7b06-53c1883c1f7b>
   PrefabRemaps:
