@@ -1,16 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 523
+    size: 507
     values:
       - ""
       - ASSETS
-      - ASSETS PRODUCTION
-      - ASSETS PRODUCTION/HINT 3.png
-      - ASSETS PRODUCTION/HINT 3.png~
+      - ASSETS PRODUCTION/.WORLD BUTTON.png-autosave.kra
       - ASSETS PRODUCTION/HINT 4.png
-      - ASSETS PRODUCTION/HINT 7.png
-      - ASSETS PRODUCTION/HINT 8.png
+      - ASSETS PRODUCTION/HINT 4.png~
       - ASSETS PRODUCTION/LOGO.png
       - ASSETS PRODUCTION/LOW GRADIENT.png
       - ASSETS PRODUCTION/Lens Icon.png
@@ -313,14 +310,6 @@ CollapsedEntities:
       - Flags Fixed Sizes/uzbekistan.png~
       - Gaussian Blur 2.mat
       - Gaussian Blur.mat
-      - HINT 1.png
-      - HINT 2.png
-      - HINT 2.png~
-      - Hints
-      - Hints/Hint_Tap_No_Dot.lensanim
-      - Hints/Hint_Tap_No_Dot.lensanim/Hint_Tap_No_Dot
-      - Hints/Hint_Tap_No_Dot.lensanim/LPD_87_Hint_TAP_out_v01.png
-      - Hints/hint_tap_animation.mat
       - Image 10.mat
       - Image 11.mat
       - Image 12.mat
@@ -359,8 +348,6 @@ CollapsedEntities:
       - Image.mat
       - Image.png
       - LOGO_highres.png
-      - Materials
-      - Materials/3d_hints_render.mat
       - Materials/logo.mat
       - Materials/restart_button.mat
       - New Folder
@@ -395,7 +382,6 @@ CollapsedEntities:
       - Scene Manager.lspkg/package.native
       - Scene.scene
       - ScreenTexture.screenTexture
-      - Scripts
       - Scripts/Scene Controllers
       - Scripts/Scene Controllers/RestartController.js
       - Scripts/Scene Controllers/SelfieWorldController.js
@@ -419,10 +405,8 @@ CollapsedEntities:
       - Scripts/UI Scroll View.lsc/Textures
       - Scripts/UI Scroll View.lsc/Textures/Base Rect Panel.png
       - Scripts/UI Scroll View.lsc/package.native
-      - Scripts/Util
       - Scripts/Util/AudioManager.js
       - Scripts/Util/GridTextureSelector.js
-      - Scripts/Util/HintsManager.js
       - Scripts/Util/HoverFloat.js
       - Scripts/Util/MaterialBlurController.js
       - Scripts/Util/PostSelectionReveal.js
