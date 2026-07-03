@@ -1,19 +1,19 @@
 studioVersion:
   major: 5
-  minor: 16
-  patch: 1
-  build: 25112007
+  minor: 15
+  patch: 4
+  build: 26022322
   type: Public
-coreVersion: 336
-clientVersion: 13.66
-updateCheckpoint: 81
+coreVersion: 330
+clientVersion: 13.60
+updateCheckpoint: 76
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
 metaInfo:
   hints:
     []
   tags:
     []
-  lensName: Rama Clinics
+  lensName: Clarity Beauty
   lensDescriptors:
     []
   lensApplicability:
@@ -23,7 +23,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 5f7b84ca84c0f41a46969767e61e750f
+  iconHash: 6e0b1dc28371e2dc9759288712fe1d40
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.16.1.25112007

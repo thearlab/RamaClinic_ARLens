@@ -1,10 +1,21 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 503
+    size: 523
     values:
       - ""
       - ASSETS
+      - ASSETS PRODUCTION
+      - ASSETS PRODUCTION/HINT 3.png
+      - ASSETS PRODUCTION/HINT 3.png~
+      - ASSETS PRODUCTION/HINT 4.png
+      - ASSETS PRODUCTION/HINT 7.png
+      - ASSETS PRODUCTION/HINT 8.png
+      - ASSETS PRODUCTION/LOGO.png
+      - ASSETS PRODUCTION/LOW GRADIENT.png
+      - ASSETS PRODUCTION/Lens Icon.png
+      - ASSETS PRODUCTION/WORLD BUTTON.png
+      - ASSETS PRODUCTION/WORLD BUTTON.png~
       - ASSETS/LOW GRADIENT.png
       - ASSETS/Lens Icon 1.png
       - ASSETS/Lens Icon 2.png
@@ -499,9 +510,18 @@ CollapsedEntities:
       - Textures/icon.png~
       - Textures/mt.png
       - Top Gradient (throughout the lens).png
+      - after selection
+      - after selection/correct .mp3
+      - flags ui opens
+      - flags ui opens/flags ui opens.MP3
       - flags.renderTarget
       - gauss_blur.ss_graph
       - images (1).png
+      - option 1-loop (1).mp3
+      - option 4-loop 2.mp3
+      - option 4-loop.mp3
+      - selection
+      - selection/selection.MP3
       - اسكتلندا.png
       - اسكتلندا.png~
       - أستراليا.png

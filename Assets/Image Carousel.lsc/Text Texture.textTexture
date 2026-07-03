@@ -1,7 +1,7 @@
 - !<TextTexture/1e1cb91e-e04d-4ecc-a8ce-466317cf0de2>
   PackagePath: ""
   Text: 1
-  FontSize: 48.000000
+  FontSize: 48
   FontColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   CustomFont: !<reference> 00000000-0000-0000-0000-000000000000
   Outline:
