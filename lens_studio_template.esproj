@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Rama Clinics
+  lensName: Shakreen
   lensDescriptors:
     []
   lensApplicability:
@@ -23,7 +23,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: 5f7b84ca84c0f41a46969767e61e750f
+  iconHash: 70d1764dbce1df6619c4229f0c1eed16
   videoPreviewHash: ""
   fromTemplateName: Default
   fromTemplateUrl: Lens Studio 5.16.1.25112007

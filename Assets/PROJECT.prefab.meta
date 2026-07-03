@@ -3605,7 +3605,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 6ddddf25-0427-43d0-83a0-b4c8333571ce
+  AudioTrack: !<reference> e122d52c-fa51-4cb9-a6d0-1ffc0e41b7dc
   EnableAutoplayLoop: true
   Volume: 0.900000
   EnableMixToSnap: false
@@ -4542,9 +4542,9 @@
     right: 0.006020
     top: 0.820000
   Offset:
-    left: -4.500000
+    left: -3.000000
     bottom: -1.824107
-    right: 4.500000
+    right: 3.000000
     top: 1.824107
 - !<ScreenTransform/ec3a34c3-3a3d-472e-7b06-53c1883c1f7b>
   PrefabRemaps:
